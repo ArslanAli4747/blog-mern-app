@@ -1,0 +1,23 @@
+.single{
+    flex: 9;
+}
+.single div .updateicons{
+    flex: 2;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.single div .tittle{
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.single .singledescription{
+    line-height: 28px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

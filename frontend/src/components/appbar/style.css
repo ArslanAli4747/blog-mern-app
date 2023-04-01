@@ -1,0 +1,26 @@
+.icons{
+    flex: 3;
+}
+.menu{
+    flex: 6;
+}
+.image{
+    flex: 3;
+}
+.icons i,.menu ul li,.image img,.image i{
+    cursor: pointer;
+}
+.menu ul li{
+    display: flex;
+    border-radius: 5px;
+    padding: 5px 4px;
+
+}
+.menu ul li:hover{
+    background: rgba(212, 209, 209,0.5);
+    color: white;
+}
+.icons i:hover,.image i:hover{
+    color: white;
+}
+
